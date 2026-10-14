@@ -1,0 +1,19 @@
+{
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "FormulaSnap",
+        "width": 1440,
+        "height": 940,
+        "minWidth": 1050,
+        "minHeight": 740,
+        "center": true,
+        "decorations": true,
+        "resizable": true,
+        "backgroundColor": "#eaf2ff",
+        "create": false
+      }
+    ]
+  }
+}

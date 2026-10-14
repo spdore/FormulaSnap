@@ -1,0 +1,8 @@
+[package]
+name = "formulasnap-workspace-launcher"
+version = "0.1.3"
+edition = "2021"
+publish = false
+[[bin]]
+name = "formulasnap-workspace-launcher"
+path = "src.rs"

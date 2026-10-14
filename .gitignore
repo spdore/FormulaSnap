@@ -1,0 +1,32 @@
+# Local runtime data, WebView2 profile, credentials, and diagnostics
+.runtime/
+.cache/
+FormulaSnapData/
+
+# Toolchains, compiler caches, and generated outputs
+.toolchain/
+**/node_modules/
+frontend/dist/
+frontend/src-tauri/target/
+frontend/src-tauri/gen/
+test-results/
+test-results-*/
+
+# Local configuration and logs
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+
+# Workspace-only launcher and unused starter assets
+/FormulaSnap-Workspace.exe
+/frontend/src/assets/hero.png
+/frontend/src/assets/vite.svg
+/frontend/src/assets/react.svg
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
