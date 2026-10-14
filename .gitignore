@@ -6,9 +6,9 @@ FormulaSnapData/
 # Toolchains, compiler caches, and generated outputs
 .toolchain/
 **/node_modules/
-frontend/dist/
-frontend/src-tauri/target/
-frontend/src-tauri/gen/
+app/dist/
+app/src-tauri/target/
+app/src-tauri/gen/
 test-results/
 test-results-*/
 
@@ -19,11 +19,22 @@ test-results-*/
 *.log
 *.tmp
 
-# Workspace-only launcher and unused starter assets
+# Workspace-only files; do not add to public releases
 /FormulaSnap-Workspace.exe
-/frontend/src/assets/hero.png
-/frontend/src/assets/vite.svg
-/frontend/src/assets/react.svg
+/AGENTS.md
+/HANDOFF.md
+/Launch-FormulaSnap.bat
+/Launch-FormulaSnap.ps1
+/docs/UI_REVIEW.md
+/design/
+/scripts/visual-review.mjs
+/tools/workspace-launcher/
+/app/README.md
+
+# Unused Vite starter assets
+/app/src/assets/hero.png
+/app/src/assets/vite.svg
+/app/src/assets/react.svg
 
 # Editor and operating-system files
 .vscode/
